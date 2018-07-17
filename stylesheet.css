@@ -17,6 +17,7 @@ h2{
 
 ul li{
 	list-style-type:none;
+	page-break-inside:avoid;
 }
 
 table{
@@ -28,7 +29,13 @@ table{
 	column-count: 2;
     	-moz-column-count: 2;
 	-webkit-column-count: 2;
+	margin-top: 25px;
 }
+
+#generalTab #postageTab #dataProcessing #lettershopFulfillment #print #foreign #warehouse #woReview #samples{
+	break-inside: avoid;
+}
+	
 
 #nav{
 	border-style: none none solid none;
