@@ -12,7 +12,7 @@ ul li{
 	list-style-type:none;
 }
 
-.checklist{
+#checklist{
 	column-count=2;
 }
 	
