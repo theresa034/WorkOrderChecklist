@@ -11,3 +11,9 @@ body{
 ul li{
 	list-style-type:none;
 }
+
+#classGeneral{
+	float:left;
+	width:50%
+}
+	
