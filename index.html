@@ -22,7 +22,7 @@
         <section id = "WOinfo">
             <table>
                 <tr>
-                    <td>CSR:</td>
+                    <td>PM:</td>
                     <td><textarea rows="1" cols="15"></textarea></td>
                     <td>WO: </td>
                     <td><textarea rows="1" cols="6"></textarea></td>
@@ -49,55 +49,54 @@
         
         <h2 class = "classGeneral classChecklist">General Tab</h2>
         <ul class = "classGeneral classChecklist">
-            <li><input type="checkbox">Name of Job Correct?</li>
-            <li><input type="checkbox">Drop Date Correct?</li>
-            <li><input type="checkbox">Release Date Filled Out?</li>
-            <li><input type="checkbox">Job Type Selected?</li>
-            <li><input type="checkbox">If Secure, Secure Box Checked?</li>
-            <li><input type="checkbox">If "Print In", Box Checked?</li>
-            <li><input type="checkbox">If Receiving Materials, Date Entered?</li>
-            <li><input type="checkbox">If Materials Received, Box Checked?</li>
-            <li><input type="checkbox">If RUSH, is it written on all WOs? </li>
+            <li><input type="checkbox">Name of job correct?</li>
+            <li><input type="checkbox">Lead Time Chart used for Drop Date?</li>
+            <li><input type="checkbox"> Release Date filled out?</li>
+            <li><input type="checkbox">“Job Type” entered?</li>
+            <li><input type="checkbox">If “Print In” is box checked?
+                <ul>
+                    <li><input type="checkbox">and/or is "Material In" date entered?</li>
+                    </ul
+            </li>
+            <li><input type="checkbox">Materials received? Box checked?</li>
+            <li><input type="checkbox">If RUSH, is it written on all work orders?</li>
             
-            <li><input type="checkbox">Is this a not before?
+            <li><input type="checkbox">Is this a “Not Before”?
                 <ul>
                     <li><input type="checkbox">Caution card included in job bag?</li>
-                    <li><input type="checkbox">Box checked off?</li>
+                    <li><input type="checkbox">Box checked?</li>
                 </ul>  
             </li>
             
-            <li><input type="checkbox">Are there any special comments that need to be entered? (DP by, Drop in MA, Commingle, MUST, Partnership Merge, etc.)</li>
+            <li><input type="checkbox">Any special comments that need to be entered? (DP By, Drop in, Commingle, MUST, Partnership Merge, etc.)
+</li>
         </ul>
         
         <h2 class = "classPostage classChecklist">Postage Tab</h2>
         
         <ul class = "classPostage classChecklist">
-            <li><input type="checkbox">Post Affix Matches Lettershop Direction?</li>
-            <li><input type="checkbox">NP and CRID #s Entered in Comments?</li>
-            <li><input type="checkbox">Post Status Correct?
+            <li><input type="checkbox">Post Affix matches Lettershop direction?</li>
+            <li><input type="checkbox">NP & CRID #s entered in comments?</li>
+            <li><input type="checkbox">Is Post Status correct?
                 <ul>
-                    <li><input type="checkbox">If “Pending,” Postage Invoice Created?
-                        <ul>
-                            <li><input type="checkbox">Sent to Client?</li>
-                            <li><input type="checkbox">Put in Job Bag</li>
-                        </ul>
-                    </li>
-                    <li>If “Ship,” Client Shipping Address Entered in Warehouse Section?</li>
-                    <li>If “Mail,” “Bill Postage with Processing” Entered in Comments Section?</li>
+                    <li><input type="checkbox">If “Pending” has a postage estimate been created, sent to client & put in job bag?</li>
+                    <li>If “Ship” has client shipping address been entered in Warehouse comments?</li>
+                    <li>If “Mail” is Bill Postage with Processing in comments section?</li>
                 </ul>
             </li>
-            <li><input type="checkbox">Sort Matches DP and Lettershop Direction?</li>
+            <li><input type="checkbox">Sort matches DP & Lettershop direction?</li>
             <li><input type="checkbox">GEO indicated?</li>
-            <li><input type="checkbox">Letter sized piece meets size and aspect ratio?</li>
-            <li><input type="checkbox">Folded Self-Mailer/ Booklet  meets USPS folding requirements?</li>
+            <li><input type="checkbox">Letter-sized piece meets size and aspect ratio?</li>
+            <li><input type="checkbox">FSM/Booklet meets USPS folding requirements?</li>
             <li><input type="checkbox">Flat meets addressing rules and droop test?</li>
-            <li><input type="checkbox">Mail panel okay? 
+            <li><input type="checkbox">Mail panel okay?
                 <ul>
-                    <li><input type="checkbox">At least 2x4?  </li>
-                    <li><input type="checkbox">No more than 10% screen?  </li>
-                    <li><input type="checkbox">Position okay? </li>
-                    <li><input type="checkbox">First class has return address on front or back?</li>
-                    <li><input type="checkbox">Std or Std NP has a return address on the front or back if using a corporate permit.</li>
+                    <li><input type="checkbox">Did you use mail panel overlay?</li>
+                    <li><input type="checkbox">At least 2x4?</li>
+                    <li><input type="checkbox">No more than 10% screen?</li>
+                    <li><input type="checkbox">Position okay?</li>
+                    <li><input type="checkbox">First Class has return address on front / back?</li>
+                    <li><input type="checkbox">STD or STD NP has a return address on the front or back if using a corporate permit?</li>
                     <li><input type="checkbox">Return address matches client NP# address and CRID address?</li>
                 </ul>
             </li>
@@ -106,35 +105,30 @@
         <h2 class = "classDataProcessing classChecklist">Data Processing Tab</h2>
         
         <ul class = "classDataProcessing classChecklist">
-            <li><input type="checkbox">Work Order Direction to DP reviewed?
+            <li><input type="checkbox">List review complete? DP direction reviewed?
                 <ul>
-                    <li><input type="checkbox">Do files have multiple tabs?</li>
-                    <li><input type="checkbox">Are there codes to include?</li>
-                    <li><input type="checkbox">Extra Columns not needing loading?</li>
+                    <li><input type="checkbox"> Multiple tabs? Multiple files?</li>
+                    <li><input type="checkbox">Codes to include?</li>
+                    <li><input type="checkbox">Extra columns not needed?</li>
                     <li><input type="checkbox"># of files to load indicated?</li>
-                </ul>
-            </li>
-            <li><input type="checkbox">List review complete?
-                <ul>
-                    <li><input type="checkbox">Are there multiple files?</li>
-                    <li><input type="checkbox">They will all be CASSED?</li>
-                    <li><input type="checkbox">Do they need NCOA? Who will it be returned to?</li>
+                    <li><input type="checkbox">Files CASSED?</li>
+                    <li><input type="checkbox">Files NCOA’d? Who will it be returned to?</li>
                     <li><input type="checkbox">PAF included or on file? Expiration Date?</li>
                     <li><input type="checkbox">Movecomply included if NCOA not needed?</li>
                 </ul>
             </li>
-            <li>Weight on work order? </li>
-            <li>Mail Foreign indicated?</li>
-            <li>Postage office for mail entry (audit) indicated on W.O.?</li>
-            <li>Presort numbers for Lake System match indicated on W.O. if needed and locations marked on the job samples?</li>
+            <li><input type="checkbox">Weight on job order?</li>
+            <li><input type="checkbox">Mail Foreign indicated?</li>
+            <li><input type="checkbox">Postage office for mail entry (audit) indicated?</li>
+            <li><input type="checkbox">Presort sequence numbers indicated if needed?</li>
+            <li><input type="checkbox">Print outs of each variable piece in job bag? (letter, reply, etc.) Highlighted?</li>
             <li><input type="checkbox">Dedupe needed?</li>
             <li><input type="checkbox">Make selects or use entire list?
                 <ul>
-                    <li><input type="checkbox">Do selects need to be sublisted?</li>
-                    <li><input type="checkbox">WO to sublist to indicated?</li>
+                    <li><input type="checkbox">Do selects need to be sublisted? Which WO?</li>
                 </ul>
             </li>
-            <li><input type="checkbox">Does “Output to X” match Postage and Lettershop direction?
+            <li><input type="checkbox">“Output to X” matches Postage & Lettershop?
                 <ul>
                     <li><input type="checkbox">OEL, T&amp;P, SEQ, BC, COMMINGLE</li>
                 </ul>
@@ -151,21 +145,21 @@
         <h2 class="classLettershopFulfillment classChecklist">Lettershop and Fulfillment Tabs</h2>
         
         <ul class="classLettershopFulfillment classChecklist">
-            <li><input type="checkbox">Tabs drawn on Self Mailers/ Booklet sample and indicated on work order?</li>
-            <li><input type="checkbox">Made appropriate selection under ‘Inkjet Proofs’?</li>
-            <li><input type="checkbox">Does addressing match Output to X and postage tabs?</li>
+            <li><input type="checkbox">Made appropriate selection under "Inkjet Proofs"?</li>
+            <li><input type="checkbox">Addressing matches Output to X and Postage?</li>
             <li><input type="checkbox">Does postage being applied match Postage tab?
                 <ul>
-                    <li><input type="checkbox">Does a stamp order form need to be emailed</li>
+                    <li><input type="checkbox">Does a stamp order form need to be filled out and emailed to Michele?</li>
                 </ul>
             </li>
-            <li><input type="checkbox">Have service codes for all actions?</li>
-            <li><input type="checkbox">Are the # of inserts indicated correct? Has the package sequence been entered in comments section?
+            <li><input type="checkbox">All necessary Lettershop/Fullfillment services codes added?</li>
+            <li><input type="checkbox">Are the # of inserts indicated correct?      
                 <ul>
+                    <li><input type="checkbox">Has the package sequence been entered in comments section?</li>
                     <li><input type="checkbox">If not standard package, has Production approved sequence of package?</li>
                 </ul>
             </li>
-            <li><input type="checkbox">Any special proofing requirements for Production listed and correct? </li>
+            <li><input type="checkbox">Special proofing requirements listed & correct?</li>
         </ul>
         
         <h2 class="classPrint classChecklist">Print Tab</h2>
