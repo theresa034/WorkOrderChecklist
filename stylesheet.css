@@ -1,33 +1,9 @@
-body {
-	font-family: Calibri, sans-serif;
-	font-size: 11pt;
-	width: 95%;
-	max-width: 800px;
+* {
+	font-family: Calibri;
+}
+body{
+	background-color: #fff8dc;
+	font-size: 12pt;
 	margin: auto;
-	padding-bottom: 50px;
+	width: 90%
 }
-
-h1{
-	text-align: center;
-	font-size: 22pt;
-	
-}
-
-li {
-	list-style-type: none;
-
-}
-
-fieldset {
-	margin-bottom: 30px;
-}
-
-
-
-ul {
-	margin-top: 0px;
-	padding-left: 30px;
-
-}
-
-
