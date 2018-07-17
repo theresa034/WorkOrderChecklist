@@ -1,0 +1,51 @@
+* {
+	font-family: Times New Roman;
+}
+body{
+	background-color: #fffff;
+	font-size: 11pt;
+	margin: auto;
+	width: 90%;
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	margin: 0;
+}
+
+ul li{
+	list-style-type:none;
+	page-break-inside:avoid;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#checklist{
+	column-count: 2;
+    	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	margin-top: 25px;
+}
+
+#generalTab #postageTab #dataProcessing #lettershopFulfillment #print #foreign #warehouse #woReview #samples{
+	break-inside: avoid;
+}
+	
+
+#nav{
+	border-style: none none solid none;
+	column-count: 4;
+    	-moz-column-count: 4;
+	-webkit-column-count: 4;	
+}
+
+.classSections{
+	-webkit-padding-start: 0;
+    	-webkit-margin-before: 0;
+    	-webkit-margin-after: 0;
+}
