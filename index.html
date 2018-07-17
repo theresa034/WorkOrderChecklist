@@ -30,7 +30,7 @@
             </tr>
         </table>
         
-        <ul>
+        <ul class="classSections">
             <li><input id="chkGeneral" type="checkbox">General Tab</li>
             <li><input id="chkDataProcessing" type="checkbox">Data Processing</li>
             <li><input id="chkLettershop" type="checkbox">Lettershop/Fulfillment</li>
@@ -41,8 +41,8 @@
             <li><input id="chkInventory" type="checkbox">Inventory</li>
         </ul>
         
-        <h2 class = classGeneral>General Tab</h2>
-        <ul class = classGeneral>
+        <h2 class = "classGeneral classChecklist">General Tab</h2>
+        <ul class = "classGeneral classChecklist">
             <li><input type="checkbox">Name of Job Correct?</li>
             <li><input type="checkbox">Drop Date Correct?</li>
             <li><input type="checkbox">Release Date Filled Out?</li>
@@ -63,9 +63,9 @@
             <li><input type="checkbox">Are there any special comments that need to be entered? (DP by, Drop in MA, Commingle, MUST, Partnership Merge, etc.)</li>
         </ul>
         
-        <h2 class = classPostage>Postage Tab</h2>
+        <h2 class = "classPostage classChecklist">Postage Tab</h2>
         
-        <ul class = classPostage>
+        <ul class = "classPostage classChecklist">
             <li><input type="checkbox">Post Affix Matches Lettershop Direction?</li>
             <li><input type="checkbox">NP and CRID #s Entered in Comments?</li>
             <li><input type="checkbox">Post Status Correct?
@@ -97,9 +97,9 @@
             </li>
         </ul>
         
-        <h2 class = classDataProcessing>Data Processing Tab</h2>
+        <h2 class = "classDataProcessing classChecklist">Data Processing Tab</h2>
         
-        <ul class = classDataProcessing>
+        <ul class = "classDataProcessing classChecklist">
             <li><input type="checkbox">Work Order Direction to DP reviewed?
                 <ul>
                     <li><input type="checkbox">Do files have multiple tabs?</li>
@@ -142,9 +142,9 @@
             <li><input type="checkbox">NDC/ SCF Processing included?</li>
         </ul>
         
-        <h2 class=classLettershopFulfillment>Lettershop and Fulfillment Tabs</h2>
+        <h2 class="classLettershopFulfillment classChecklist">Lettershop and Fulfillment Tabs</h2>
         
-        <ul clas=classLettershopFulfillment>
+        <ul class="classLettershopFulfillment classChecklist">
             <li><input type="checkbox">Tabs drawn on Self Mailers/ Booklet sample and indicated on work order?</li>
             <li><input type="checkbox">Made appropriate selection under ‘Inkjet Proofs’?</li>
             <li><input type="checkbox">Does addressing match Output to X and postage tabs?</li>
@@ -162,9 +162,9 @@
             <li><input type="checkbox">Any special proofing requirements for Production listed and correct? </li>
         </ul>
         
-        <h2 class=classPrint>Print Tab</h2>
+        <h2 class="classPrint classChecklist">Print Tab</h2>
         
-        <ul class=classPrint>
+        <ul class="classPrint classChecklist">
             <li><input type="checkbox">Special order paper or materials needed?</li>
             <li><input type="checkbox">Has Print Dept been informed?</li>
             <li><input type="checkbox">Will Print Dept need to make any edits to files?
@@ -177,8 +177,8 @@
             <li><input type="checkbox">If printing set qty, has this information been written on the WO?</li>
         </ul>
         
-        <h2 class = classForeign>Foreign Tab</h2>
-        <ul class=classForeign>
+        <h2 class = "classForeign classChecklist">Foreign Tab</h2>
+        <ul class="classForeign classChecklist">
             <li><input type="checkbox">Set Up Foreign direction included?</li>
             <li><input type="checkbox">Is processing same as domestic or will there be additional work?
                 <ul>
@@ -191,8 +191,8 @@
             <li><input type="checkbox">If foreign weight is different than domestic, has this weight been written on the foreign work order?</li>
         </ul>
         
-        <h2 class = classInventoryWarehouse>Inventory and Warehouse Tabs</h2>
-        <ul class =  classInventoryWarehouse>
+        <h2 class = "classWarehouse classChecklist">Inventory and Warehouse Tabs</h2>
+        <ul class =  "classWarehouse classChecklist">
             <li><input type="checkbox">Has inventory been received into work order?
                 <ul>
                     <li><input type="checkbox">Verified quantities received verses mail quantity?</li>
@@ -208,9 +208,9 @@
             <li><input type="checkbox">Deliver to NDC/SCF  included?</li>
         </ul>
         
-        <h2 class=classWOReview>Work Order Review</h2>
+        <h2 class="classWOReview classChecklist">Work Order Review</h2>
         
-        <ul class-classWOReview>
+        <ul class="classWOReview classChecklist">
             <li><input type="checkbox">Quantity correct on all activities?</li>
             <li><input type="checkbox">Is Security Policy required?
                 <ul>
@@ -225,9 +225,9 @@
             </li>
         </ul>
         
-        <h2 class=classSamples>Sample</h2>
+        <h2 class="classSamples classChecklist">Sample</h2>
         
-        <ul class=classSamples>
+        <ul class="classSamples classChecklist">
             <li><input type="checkbox">Sample needed for job bag?
                 <ul>
                     <li><input type="checkbox">Does postage match work order?</li>
@@ -244,6 +244,8 @@
             </li>
         </ul>
 
-        <p>Last Updated: 07/17/2018</p>
+        <footer>
+            <p>Last Updated: 07/17/2018</p>
+        </footer>
     </body>
                     
