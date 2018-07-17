@@ -13,7 +13,6 @@ ul li{
 }
 
 .checklist{
-	float:left;
-	width:50%;
+	column-count=2;
 }
 	
