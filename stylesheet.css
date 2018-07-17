@@ -7,3 +7,7 @@ body{
 	margin: auto;
 	width: 90%
 }
+
+ul li{
+	text-decoration:none;
+}
