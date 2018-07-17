@@ -34,4 +34,11 @@ table{
 	-webkit-column-count: 4;	
 }
 
+.classSections{
+	text-align: center;
+	-webkit-padding-start: 0;
+    	-webkit-margin-before: 0;
+    	-webkit-margin-after: 0;
+}
+
 
