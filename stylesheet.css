@@ -32,7 +32,31 @@ table{
 	margin-top: 25px;
 }
 
-#generalTab #postageTab #dataProcessing #lettershopFulfillment #print #foreign #warehouse #woReview #samples{
+#generalTab{
+	break-inside: avoid;
+}
+#postageTab{
+	break-inside: avoid;
+}
+#dataProcessing{
+	break-inside: avoid;
+}
+#lettershopFulfillment{
+	break-inside: avoid;
+}
+#print{
+	break-inside: avoid;
+}
+#foreign{
+	break-inside: avoid;
+}
+#warehouse{
+	break-inside: avoid;
+}
+#woReview{
+	break-inside: avoid;
+}
+#samples{
 	break-inside: avoid;
 }
 	
