@@ -8,6 +8,10 @@ body{
 	width: 90%;
 }
 
+h1{
+	text-align: center;
+}
+
 ul li{
 	list-style-type:none;
 }
@@ -17,4 +21,13 @@ ul li{
     	-moz-column-count: 2;
 	-webkit-column-count: 2;
 }
-	
+
+#nav{
+	column-count: 4;
+    	-moz-column-count: 4;
+	-webkit-column-count: 4;	
+}
+
+#WOinfo{
+	text-align: center;
+}
