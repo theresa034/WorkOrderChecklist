@@ -3,13 +3,16 @@
 }
 body{
 	background-color: #fff8dc;
-	font-size: 12pt;
+	font-size: 11pt;
 	margin: auto;
 	width: 90%;
 }
 
 h1{
 	text-align: center;
+}
+h2{
+	margin: 0;
 }
 
 ul li{
