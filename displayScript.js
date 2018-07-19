@@ -9,7 +9,7 @@ $(document).ready(function(){
 	
 /*checkbox conditions*/	
 	$("#chkPostage").click(function(){
-		if($("#chkPostage").is(":checked")){
+		if(this.checked){
 			$(".postageTab").show();
 		} else {
 			$(".postageTab").hide();
