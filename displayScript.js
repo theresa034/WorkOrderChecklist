@@ -36,7 +36,6 @@ $(document).ready(function(){
 			$(".print").show();
 		}else {
 			$(".print").hide();
-			$(".printForeign").hide();
 		}
 	});
 	
@@ -45,7 +44,6 @@ $(document).ready(function(){
 			$(".foreign").show();
 		}else {
 			$(".print").hide();
-			$(".printForeign").hide();
 		}
 	});
 
