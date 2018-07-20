@@ -43,7 +43,7 @@ $(document).ready(function(){
 		if(this.checked){
 			$(".foreign").show();
 		}else {
-			$(".print").hide();
+			$(".foreign").hide();
 		}
 	});
 
