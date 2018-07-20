@@ -38,10 +38,7 @@ table{
 	
 
 #nav{
-	border-style: none none solid none;
-	column-count: 4;
-    	-moz-column-count: 4;
-	-webkit-column-count: 4;	
+	display: none;	
 }
 
 .classSections{
