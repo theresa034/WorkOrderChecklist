@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 	$("#chkGeneral").change(function(){
 		if(this.checked){
@@ -35,9 +34,8 @@ $(document).ready(function(){
 	$("#chkPrint").change(function(){
 		if(this.checked){
 			$(".print").show();
-		}else{
+		} else {
 			$(".print").hide();
-			
 		}
 	});
 	
