@@ -60,7 +60,7 @@ table{
 	break-inside: avoid;
 }	
 
-#components{
+.components{
 	columns: 3;
 	margins: auto;
 }
