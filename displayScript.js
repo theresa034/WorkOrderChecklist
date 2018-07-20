@@ -35,9 +35,6 @@ $(document).ready(function(){
 	$("#chkPrint").change(function(){
 		if(this.checked){
 			$(".print").show();
-			$(".printForeign").show();
-		} else if(#"chkForeign").checked){
-			$(".printForeign").show();
 		}else{
 			$(".print").hide();
 			
@@ -47,9 +44,6 @@ $(document).ready(function(){
 	$("#chkForeign").change(function(){
 		if(this.checked){
 			$(".foreign").show();
-			$("printForeign").show();
-		} else if(#"chkPrint").checked){
-			$(".printForeign").show();
 		} else {
 			$(".foreign").hide();
 		}
