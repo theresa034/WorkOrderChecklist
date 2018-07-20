@@ -34,16 +34,22 @@ $(document).ready(function(){
 	$("#chkPrint").change(function(){
 		if(this.checked){
 			$(".print").show();
-		} else {
+		} else if ($("#chkForeign").checked){
+			$(".printForeign").show();
+		}else {
 			$(".print").hide();
+			$(".printForeign").hide();
 		}
 	});
 	
 	$("#chkForeign").change(function(){
 		if(this.checked){
 			$(".foreign").show();
-		} else {
-			$(".foreign").hide();
+		} else if ($("#chkPrint").checked){
+			$(".printForeign").show();
+		}else {
+			$(".print").hide();
+			$(".printForeign").hide();
 		}
 	});
 
