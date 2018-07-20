@@ -1,5 +1,13 @@
 
 $(document).ready(function(){
+	$("#chkGeneral").change(function(){
+		if(this.checked){
+			$(".generalTab").show();
+		} else {
+			$(".generalTab").hide();
+		}
+	});
+	
 	$("#chkPostage").change(function(){
 		if(this.checked){
 			$(".postageTab").show();
@@ -45,6 +53,14 @@ $(document).ready(function(){
 			$(".warehouse").show();
 		} else {
 			$(".warehouse").hide();
+		}
+	});
+	
+	$("#chkReview").change(function(){
+		if(this.checked){
+			$(".woReview").show();
+		} else {
+			$(".woReview").hide();
 		}
 	});
 	
