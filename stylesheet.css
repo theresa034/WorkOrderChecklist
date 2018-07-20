@@ -58,14 +58,14 @@ table{
 }
 #samples{
 	break-inside: avoid;
-}
-	
+}	
 
 #components{
-	border-style: none none solid none;
-	column-count: 4;
-    	-moz-column-count: 4;
-	-webkit-column-count: 4;	
+    	-webkit-column-count:3;
+    	-moz-column-count: 3;
+	column-count: 3;
+	float: center;
+	height: 90px;		
 }
 
 .classSections{
