@@ -32,31 +32,31 @@ table{
 	margin-top: 25px;
 }
 
-#generalTab{
+.generalTab{
 	break-inside: avoid;
 }
-#postageTab{
+.postageTab{
 	break-inside: avoid;
 }
-#dataProcessing{
+.dataProcessing{
 	break-inside: avoid;
 }
-#lettershopFulfillment{
+.lettershopFulfillment{
 	break-inside: avoid;
 }
-#print{
+.print{
 	break-inside: avoid;
 }
-#foreign{
+.foreign{
 	break-inside: avoid;
 }
-#warehouse{
+.warehouse{
 	break-inside: avoid;
 }
-#woReview{
+.woReview{
 	break-inside: avoid;
 }
-#samples{
+.samples{
 	break-inside: avoid;
 }	
 
