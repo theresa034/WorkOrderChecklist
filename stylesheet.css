@@ -73,10 +73,7 @@ table{
 }
 
 iframe{
-	border: none; 
- 	display: block; 
-	overflow-y: auto; 
- 	overflow-x: hidden;
+	height: -webkit-fill-available;
 	width: 100%; 
 }
 
