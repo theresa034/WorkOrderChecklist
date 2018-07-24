@@ -72,4 +72,9 @@ table{
     	-webkit-margin-after: 0;
 }
 
+iframe{
+	height: 95%;
+	width: 95%;
+}
+
 
