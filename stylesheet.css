@@ -78,15 +78,18 @@ table{
 }
 
 td.nav {
-    border: 2px solid;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
+    	border: 2px solid;
+    	padding: 20px;
+    	text-align: center;
+    	width: 100%;
 }
 table.nav {
-    margin: 0;
-    width: -webkit-fill-available;
-    border-collapse: collapse;
+	width: 50%;
+	font-size: 16pt;
+	font-weight: bold;
+    	margin-bottom:2%;
+    	width: -webkit-fill-available;
+    	border-collapse: collapse;
 }
 
 
