@@ -77,5 +77,16 @@ table{
     	-webkit-margin-after: 0;
 }
 
+td.nav {
+    border: 2px solid;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+table.nav {
+    margin: 0;
+    width: -webkit-fill-available;
+    border-collapse: collapse;
+}
 
 
