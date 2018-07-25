@@ -88,8 +88,7 @@ table.nav {
 	font-size: 16pt;
 	font-weight: bold;
     	margin-bottom:2%;
-    	width: -webkit-fill-available;
-    	border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 
