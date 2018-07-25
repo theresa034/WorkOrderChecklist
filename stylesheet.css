@@ -15,6 +15,11 @@ h2{
 	margin: 0;
 }
 
+iframe{
+	height: -webkit-fill-available;
+	width: 100%; 
+}
+
 ul li{
 	list-style-type:none;
 	page-break-inside:avoid;
@@ -72,9 +77,14 @@ table{
     	-webkit-margin-after: 0;
 }
 
-iframe{
-	height: -webkit-fill-available;
-	width: 100%; 
+ul.nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 90%;
+	background-color: #f1f1f1;
 }
+
+
 
 
