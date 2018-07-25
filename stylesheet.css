@@ -77,21 +77,5 @@ table{
     	-webkit-margin-after: 0;
 }
 
-ul.nav{
-	background-color: #f1f1f1;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: sticky;
-	position: -webkit-sticky;
-	top: 0;
-	width: 90%;
-}
-
-li.nav{
-	display: inline;
-}
-
-
 
 
