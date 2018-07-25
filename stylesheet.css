@@ -20,6 +20,10 @@ iframe{
 	width: 100%; 
 }
 
+img{
+	display: block;
+	margin: auto;
+
 ul li{
 	list-style-type:none;
 	page-break-inside:avoid;
