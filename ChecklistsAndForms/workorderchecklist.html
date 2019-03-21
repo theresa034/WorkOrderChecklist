@@ -11,16 +11,16 @@
         <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/sin/trunk/html5.js"></script>
         <![endif]-->
-        
-        <link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="printStylesheet.css" type="text/css" media="print">
-        
+
+        <link rel="stylesheet" href="../stylesheet.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="../printStylesheet.css" type="text/css" media="print">
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="displayScript.js"></script>	
-        
-       
+	<script src="displayScript.js"></script>
+
+
     </head>
-    
+
     <body>
         <h1>Work Order Checklist</h1>
         <section id = "WOinfo">
@@ -31,16 +31,16 @@
                     <td>WO: </td>
                     <td><textarea rows="1" cols="6"></textarea></td>
                     <td>Date: </td>
-                    <td><textarea rows="1" cols="10"></textarea><td>                 
+                    <td><textarea rows="1" cols="10"></textarea><td>
                 </tr>
             </table>
         </section>
-        
+
         <fieldset id="nav">
 		<legend>WO Components</legend>
 		<div class="components">
 			<ul class="classSections">
-                		<li><input id="chkGeneral" type="checkbox" checked>General Tab</li>                
+                		<li><input id="chkGeneral" type="checkbox" checked>General Tab</li>
                 		<li><input id="chkPostage" type="checkbox" checked>Postage</li>
                 		<li><input id="chkDataProcessing" type="checkbox" checked>Data Processing</li>
                 		<li><input id="chkLettershop" type="checkbox" checked>Lettershop/Fulfillment</li>
@@ -48,11 +48,11 @@
                 		<li><input id="chkForeign" type="checkbox" checked>Foreign</li>
                 		<li><input id="chkWarehouse" type="checkbox" checked>Warehouse</li>
                 		<li><input id="chkReview" type="checkbox" checked>Work Order Review</li>
-                		<li><input id=chkSample" type="checkbox" checked>Sample</li>
+                		<li><input id="chkSample" type="checkbox" checked>Sample</li>
             		</ul>
 	    	</div>
         </fieldset>
-            
+
         <section id="checklist">
             <div class="generalTab">
                 <h2 class = "classChecklist">General Tab</h2>
@@ -68,21 +68,21 @@
                     </li>
                     <li><input type="checkbox">Materials received? Box checked?</li>
                     <li><input type="checkbox">If RUSH, is it written on all work orders?</li>
-            
+
                     <li><input type="checkbox">Is this a “Not Before”?
                         <ul>
                             <li><input type="checkbox">Caution card included in job bag?</li>
                             <li><input type="checkbox">Box checked?</li>
-                        </ul>  
+                        </ul>
                     </li>
                     <li><input type="checkbox">Any special comments that need to be entered? (DP By, Drop in, Commingle, MUST, Partnership Merge, etc.)</li>
                 </ul>
             </div>
-            
+
             <div class="postageTab">
-        
+
                          <h2 class="classChecklist">Postage Tab</h2>
-        
+
                 <ul class = "classChecklist">
                     <li><input type="checkbox">Post Affix matches Lettershop direction?</li>
                     <li><input type="checkbox">NP &amp; CRID #s entered in comments?</li>
@@ -111,10 +111,10 @@
                     </li>
                 </ul>
             </div>
-            
-            <div class="dataProcessing">                         
+
+            <div class="dataProcessing">
                 <h2 class = "classChecklist">Data Processing Tab</h2>
-        
+
                 <ul class = "classChecklist">
                     <li><input type="checkbox">List review complete? DP direction reviewed?
                         <ul>
@@ -153,10 +153,10 @@
                     <li><input type="checkbox">NDC/ SCF Processing included?</li>
                 </ul>
             </div>
-                                              
+
             <div class="lettershopFulfillment">
                 <h2 class="classChecklist">Lettershop and Fulfillment Tabs</h2>
-        
+
                 <ul class="classChecklist">
                     <li><input type="checkbox">Made appropriate selection under "Inkjet Proofs"?</li>
                     <li><input type="checkbox">Addressing matches Output to X and Postage?</li>
@@ -166,7 +166,7 @@
                         </ul>
                     </li>
                     <li><input type="checkbox">All necessary Lettershop/Fullfillment services codes added?</li>
-                    <li><input type="checkbox">Are the # of inserts indicated correct?      
+                    <li><input type="checkbox">Are the # of inserts indicated correct?
                         <ul>
                             <li><input type="checkbox">Has the package sequence been entered in comments section?</li>
                             <li><input type="checkbox">If not standard package, has Production approved sequence of package?</li>
@@ -175,10 +175,10 @@
                     <li><input type="checkbox">Special proofing requirements listed &amp; correct?</li>
                 </ul>
             </div>
-            
+
             <div class="print">
                 <h2 class="classPrint classChecklist">Print Tab</h2>
-        
+
                 <ul class="classPrint classChecklist">
                     <li><input type="checkbox">Special order paper or materials needed?
                         <ul>
@@ -194,7 +194,7 @@
                     <li><input type="checkbox">Folding Direction included for all necessary pieces?</li>
                     <li><input type="checkbox">If printing set quantity, has this information been written on the WO?</li>
                 </ul>
-    
+
             </div>
             <div class="foreign">
                 <h2 class = "classChecklist">Foreign Tab</h2>
@@ -211,7 +211,7 @@
                     <li><input type="checkbox">If foreign weight is different than domestic, has this weight been written on the foreign work order?</li>
                 </ul>
             </div>
-            
+
             <div class="warehouse">
                 <h2 class = "classChecklist">Inventory and Warehouse Tabs</h2>
                 <ul class =  "classChecklist">
@@ -230,10 +230,10 @@
                     <li><input type="checkbox">Deliver to NDC/SCF included?</li>
                 </ul>
             </div>
-            
+
             <div class="woReview">
                 <h2 class="classChecklist">Work Order Review</h2>
-        
+
                 <ul class="classChecklist">
                     <li><input type="checkbox">Quantity correct on all activities</li>
                     <li><input type="checkbox">Does Repair All needed to be added on each section?</li>
@@ -251,10 +251,10 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="samples">
                 <h2 class="classChecklist">Sample</h2>
-        
+
                 <ul class="classChecklist">
                     <li><input type="checkbox">Sample included for consolidated WO?
                         <ul>
@@ -282,4 +282,3 @@
             <p>Last Updated: 07/20/2018</p>
         </footer>
     </body>
-                    
