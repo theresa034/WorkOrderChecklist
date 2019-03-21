@@ -35,7 +35,12 @@ table{
 	margin-right: auto;
 }
 
-/*home page*/
+/*home page and nav*/
+
+.gohome{
+	color: black;
+	text-decoration: none
+}
 .dropbtn {
   background-color: #25408f;
   color: white;
@@ -129,20 +134,4 @@ table{
 	-webkit-padding-start: 0;
     	-webkit-margin-before: 0;
     	-webkit-margin-after: 0;
-}
-
-
-/* outdated hopefully */
-td.nav {
-    	border: 2px solid;
-	border-radius: 25px;
-    	padding: 20px;
-    	text-align: center;
-    	width: 100%;
-}
-table.nav {
-	font-size: 16pt;
-	font-weight: bold;
-    	margin-bottom:2%;
-	width: 50%;
 }
