@@ -35,7 +35,41 @@ table{
 	margin-right: auto;
 }
 
+h2 {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 2%;
+}
 /*home page and nav*/
+
+.breadcrumb{
+    position:relative;
+    height:30px;
+    width:30%;
+}
+.breadcrumb ul{
+    position:relative;
+    margin:0 5px 0 5px;
+    padding:0;
+    height:30px;
+    }
+.breadcrumb ul li{
+    padding:0;
+    margin:0;
+    list-style:none;
+    float:left;
+    height:3px;
+    display:inline;
+}
+.breadcrumb ul li{
+    font:12px Arial, Helvetica, sans-serif;
+    color:darkgreen;
+    text-decoration:none;
+    line-height:30px;
+    display:block;
+    padding:0 2px 0 2px;
+}
+
 
 .gohome{
 	color: black;
@@ -48,7 +82,8 @@ table{
   font-size: 16px;
   border: none;
   cursor: pointer;
-	width: 100%
+	width: 100%;
+	text-decoration: none;
 }
 
 .dropdown {
@@ -85,7 +120,18 @@ table{
 }
 
 
-
+/*menus */
+.menubtn {
+  background-color: #25408f;
+  color: white;
+	margin: 2px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+	width: 50%;
+	text-decoration: none;
+}
 
 
 /* check list */
