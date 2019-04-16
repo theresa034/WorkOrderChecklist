@@ -6,7 +6,7 @@ $(document).ready(function(){
 			$(".generalTab").hide();
 		}
 	});
-	
+
 	$("#chkPostage").change(function(){
 		if(this.checked){
 			$(".postageTab").show();
@@ -14,7 +14,7 @@ $(document).ready(function(){
 			$(".postageTab").hide();
 		}
 	});
-	
+
 	$("#chkDataProcessing").change(function(){
 		if(this.checked){
 			$(".dataProcessing").show();
@@ -22,7 +22,15 @@ $(document).ready(function(){
 			$(".dataProcessing").hide();
 		}
 	});
-	
+
+	$("#chkMerge").change(function(){
+		if(this.checked){
+			$(".Merge").show();
+		} else {
+			$(".Merge").hide();
+		}
+	});
+
 	$("#chkLettershop").change(function(){
 		if(this.checked){
 			$(".lettershopFulfillment").show();
@@ -30,7 +38,7 @@ $(document).ready(function(){
 			$(".lettershopFulfillment").hide();
 		}
 	});
-	
+
 	$("#chkPrint").change(function(){
 		if(this.checked){
 			$(".print").show();
@@ -38,7 +46,7 @@ $(document).ready(function(){
 			$(".print").hide();
 		}
 	});
-	
+
 	$("#chkForeign").change(function(){
 		if(this.checked){
 			$(".foreign").show();
@@ -54,7 +62,7 @@ $(document).ready(function(){
 			$(".warehouse").hide();
 		}
 	});
-	
+
 	$("#chkReview").change(function(){
 		if(this.checked){
 			$(".woReview").show();
@@ -62,7 +70,7 @@ $(document).ready(function(){
 			$(".woReview").hide();
 		}
 	});
-	
+
 	$("#chkSample").change(function(){
 		if(this.checked){
 			$(".sample").show();
