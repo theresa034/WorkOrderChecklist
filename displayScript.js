@@ -78,4 +78,35 @@ $(document).ready(function(){
 			$(".sample").hide();
 		}
 	});
+
+	$("#btnClear").click(function(){
+		var items = document.getElementsByName('sectionsCheck');
+		for(var i=0; i<items.length; i++){
+					if(items[i].type=='checkbox')
+						items[i].checked=true;
+					}
+						$(".generalTab").show();
+						$(".postageTab").show();
+						$(".dataProcessing").show();
+						$(".Merge").show();
+						$(".lettershopFulfillment").show();
+						$(".print").show();
+						$(".foreign").show();
+						$(".warehouse").show();
+						$(".woReview").show();
+						$(".sample").show();
+			var reviewItems = document.getElementsByName('reviewCheck')
+
+			for(var i=0; i<reviewItems.length; i++){
+						if(reviewItems[i].type=='checkbox')
+							reviewItems[i].checked=false;
+						}
+		 var reviewText = document.getElementsByName('reviewText')
+
+						for(var i=0; i<reviewText.length; i++){
+									if(reviewText[i].type=='textarea')
+										reviewText[i].value="";
+									}
+   });
+
 });
