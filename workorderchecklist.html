@@ -61,23 +61,24 @@
             <div class="generalTab">
                 <h2 class = "classChecklist">General Tab/Work Order Review</h2>
                 <ul class = "classChecklist">
-                    <li><input name="reviewCheck" type="checkbox">Name of job</li>
+                    <li><input name="reviewCheck" type="checkbox">Version Name</li>
                     <li><input name="reviewCheck" type="checkbox">Release Date</li>
-                    <li><input name="reviewCheck" type="checkbox">Print In</li>
+                    <li><input name="reviewCheck" type="checkbox">Static Print Y/N</li>
                     <li><input name="reviewCheck" type="checkbox">Material In <i>(Date or Check)</i></li>
-                    <li><input name="reviewCheck" type="checkbox">Drop Date <i>(Lead Time Chart)</i></li>
-                    <li><input name="reviewCheck" type="checkbox">Not Before <i>(Caution cards and Box Checked)</i></li>
+                    <li><input name="reviewCheck" type="checkbox">Due Date <i>(Lead Time Chart)</i></li>
+                    <li><input name="reviewCheck" type="checkbox">Not Before <i>(Caution cards and Y/N)</i></li>
                     <li><input name="reviewCheck" type="checkbox">RUSH <i>(Written on all WOs)</i></li>
-                    <li><input name="reviewCheck" type="checkbox">Job Type</li>
+                    <li><input name="reviewCheck" type="checkbox">Version Job Type</li>
                     <li><input name="reviewCheck" type="checkbox">Schedule Comments
                       <ul>
-                        <li><input name="reviewCheck" type="checkbox"><i>DP By, Drop in, Comingle, MUST, Partnership Merge, etc.</i></li>
-                        <li><input name="reviewCheck" type="checkbox"><i>Written on WO</i></li>
+                        <li><input name="reviewCheck" type="checkbox"><i>Drop in, Comingle, MUST, Partnership Merge, etc.</i></li>
                       </ul>
                     </li>
                     <li><input name="reviewCheck" type="checkbox">Quantities Correct</li>
                     <li><input name="reviewCheck" type="checkbox">Repair All Needed</li>
                     <li><input name="reviewCheck" type="checkbox">Security Policy Required</li>
+			<li><input name="reviewCheck" type="checkbox">Inkjet Proof</li>
+			<li><input name="reviewCheck" type="checkbox">Postage Billing</li>
                 </ul>
             </div>
 
@@ -91,18 +92,19 @@
                             <li><input name="reviewCheck" type="checkbox"><i>Codes</i></li>
                             <li><input name="reviewCheck" type="checkbox"><i>Extra columns</i></li>
                             <li><input name="reviewCheck" type="checkbox"><i>addressing</i></li>
+				<li><input name="reviewCheck" type="checkbox"><i>original saved to original file if using PM EDIT list</i></li>
                         </ul>
                     </li>
                     <li><input name="reviewCheck" type="checkbox">CASS <i>(Standardized?)</i></li>
                     <li><input name="reviewCheck" type="checkbox">NCOA
                       <ul>
-                        <li><input name="reviewCheck" type="checkbox"><i>Returned to?</i></li>
+                        <li><input name="reviewCheck" type="checkbox"><i>Returned to? Email Included?</i></li>
                         <li><input name="reviewCheck" type="checkbox"><i>PAF (Included or on file? Exp Date?)</i></li>
                         <li><input name="reviewCheck" type="checkbox"><i>MoveComply</i></li>
                       </ul>
                     </li>
                     <li><input name="reviewCheck" type="checkbox">Dedupe</li>
-                    <li><input name="reviewCheck" type="checkbox">Select Records <i>(Sublist to WO #: <textarea name="reviewText" rows="1" cols="6"></textarea>)</i></li>
+                    <li><input name="reviewCheck" type="checkbox">Select Records</li>
                     <li><input name="reviewCheck" type="checkbox">Presort/Sort for RTC</li>
                     <li><input name="reviewCheck" type="checkbox">Save final mail file</li>
                     <li><input name="reviewCheck" type="checkbox">Weight</li>
@@ -113,7 +115,7 @@
             </div>
 
             <div class="Merge">
-              <h2 class="classChecklist">Merge Date Review</h2>
+              <h2 class="classChecklist">Merge Data Review</h2>
               <ul class="classChecklist">
                 <li><input name="reviewCheck" type="checkbox">Code Annual Giving Checkmarks <i>(Field for Coding)</i></li>
                 <li><input name="reviewCheck" type="checkbox">Code Ask Strings
@@ -124,25 +126,27 @@
                   </ul>
                 </li>
                 <li><input name="reviewCheck" type="checkbox">Format Ask Strings <i>(Field for Coding/How)</i></li>
-                <li><input name="reviewCheck" type="checkbox">Format Monthly Ask Strings <i>(Field for COding/How)</i></li>
+                <li><input name="reviewCheck" type="checkbox">Format Monthly Ask Strings <i>(Field for Coding/How)</i></li>
                 <li><input name="reviewCheck" type="checkbox">Format Last Gift <i>(Field for Coding/How)</i></li>
                 <li><input name="reviewCheck" type="checkbox">Load List for Merge
                   <ul>
-                    <li><input name="reviewCheck" type="checkbox"><i>List Name(s)</i></li>
+                    <li><input name="reviewCheck" type="checkbox"><i>List Name(s) and Quantity</i></li>
                     <li><input name="reviewCheck" type="checkbox"><i>Salutation</i></li>
                     <li><input name="reviewCheck" type="checkbox"><i>Addressing</i></li>
                     <li><input name="reviewCheck" type="checkbox">Preflight Issues</i></li>
                   </ul>
                 </li>
+		<li><input nae="reviewCheck" type="checkbox">Create/Review Salutation</input></li>
                 <li><input name="reviewCheck" type="checkbox">Setup &amp; Print
                   <ul>
+			  <li><input name="reviewCheck" type="checkbox"><i>File Name</i></li>
                     <li><input name="reviewCheck" type="checkbox"><i># of Versions</i></li>
                     <li><input name="reviewCheck" type="checkbox"><i>Seq #</i></li>
-                    <li><input name="reviewCheck" type="checkbox">Coding correct?</i></li>
-                    <li><input name="reviewCheck" type="checkbox">Bleeds or No Bleeds</i></li>
+                    <li><input name="reviewCheck" type="checkbox"><i>Coding correct?</i></li>
+                    <li><input name="reviewCheck" type="checkbox"><i>Bleeds or No Bleeds</i></li>
                   </ul>
                 </li>
-                <li><input name="reviewCheck" type="checkbox">Variable Print Outs <i>(Highlighted)</i></li>
+                <li><input name="reviewCheck" type="checkbox">Variable Markups <i>(Highlighted)</i></li>
                 <li><input name="reviewCheck" type="checkbox">Prep for Analysis</li>
               </ul>
             </div>
@@ -166,7 +170,7 @@
                                 <li><input name="reviewCheck" type="checkbox">Post Status
                                     <ul>
                                         <li><input name="reviewCheck" type="checkbox"><b>Pending</b>-<i>postage estimate sent &amp; in job bag</i></li>
-                                        <li><input name="reviewCheck" type="checkbox"><b>Ship</b>-<i>client shipping address in Warehouse comments?</i></li>
+                                        <li><input name="reviewCheck" type="checkbox"><b>Ship</b>-<i>client shipping address in ship description?</i></li>
                                         <li><input name="reviewCheck" type="checkbox"><b>Mail</b>-<i>Bill Postage with Processing in comments</i></li>
                                     </ul>
                                 </li>
@@ -177,7 +181,7 @@
                 <h2 class="classChecklist">Lettershop &amp; Fulfillment Tabs</h2>
 
                 <ul class="classChecklist">
-                    <li><input name="reviewCheck" type="checkbox">"Inkjet Proofs" <i>(Dropdown)</i></li>
+                    <li><input name="reviewCheck" type="checkbox">Inkjet Proofs- does selection match IJ proof box</li>
                     <li><input name="reviewCheck" type="checkbox">Is the following <b>correct</b> and does it <b>match Postage and Sample</b>
                         <ul>
                           <li><input name="reviewCheck" type="checkbox"><i>Piece Size</i></li>
@@ -188,13 +192,13 @@
                           <li><input name="reviewCheck" type="checkbox"><i>Seq #</i></li>
                         </ul>
                     </li>
-                    <li><input name="reviewCheck" type="checkbox">Stamp/Permit <i>(Stamp Order Form Needed?)</i>
+                    <li><input name="reviewCheck" type="checkbox">Stamp/Permit <i>(Stamp Order Email Needed?)</i>
                       <ul>
                         <li>Is it a retail flat? <i> In Fulfillment section?</i></li>
                         <li>Is it a retail letter over 1oz? <i>In Fulfillment section?</i></li>
 </ul>
                         </li>
-                    <li><input name="reviewCheck" type="checkbox"># of Inserts Correct <i>(Sequence entered in comments)</i></li>
+                    <li><input name="reviewCheck" type="checkbox"># of Inserts Correct <i>entered in Match or Insert description</i></li>
                     <li><input name="reviewCheck" type="checkbox">Special Proofing Requirements</li>
                     <li><input name="reviewCheck" type="checkbox">All necessary services codes added?</li>
                 </ul>
@@ -204,6 +208,7 @@
                 <h2 class="classPrint classChecklist">Print Tab</h2>
 
                 <ul class="classPrint classChecklist">
+			<li><input name="reviewCheck" type="checkbox">Include File Names</li>
                   <li><input name="reviewCheck" type="checkbox">Bleeds or No Bleeds</li>
                   <li><input name="reviewCheck" type="checkbox">Color Match <i>(PMS or Physical)</i></li>
                   <li><input name="reviewCheck" type="checkbox">Final Proof <i>(Client / PM / Hardcopy)</i></li>
@@ -242,7 +247,7 @@
                     </li>
                     <li><input name="reviewCheck" type="checkbox">Direction for handling of residuals
                         <ul>
-                            <li><input name="reviewCheck" type="checkbox"><i>If return, is the shipping address in the Warehouse comments section? Street address, not P.O. Box?</i></li>
+                            <li><input name="reviewCheck" type="checkbox"><i>If return, is the shipping address in ship description? Street address, not P.O. Box?</i></li>
                             <li><input name="reviewCheck" type="checkbox"><i>Have you input how many pieces, folded or flat, stuffed, addressed in service code?</i></li>
                         </ul>
                     </li>
@@ -286,6 +291,6 @@
         </section>
 
         <footer>
-            <p>Last Updated: 05/14/2019</p>
+            <p>Last Updated: 10/21/2020</p>
         </footer>
     </body>
