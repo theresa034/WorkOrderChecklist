@@ -73,9 +73,9 @@ $(document).ready(function(){
 
 	$("#chkSample").change(function(){
 		if(this.checked){
-			$(".sample").show();
+			$(".samples").show();
 		} else {
-			$(".sample").hide();
+			$(".samples").hide();
 		}
 	});
 
